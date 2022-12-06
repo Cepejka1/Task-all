@@ -7,9 +7,7 @@
 // int result = number1 * number1;
 // System.Console.WriteLine($"Квадрат числа {number1} = {result}");
 
-
 // Вариант 2. Сразу выводим результат 
-
 
 // int number2 = new Random().Next(1, 100);
 // System.Console.WriteLine($"Квадрат числа {number2} = {number2 * number2}");
@@ -21,3 +19,4 @@
 // string writeNumber = Console.ReadLine();
 // int number3 = Convert.ToInt32(writeNumber);
 // System.Console.WriteLine($"Квадрат числа {number3} = {number3 * number3}");
+
