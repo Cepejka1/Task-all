@@ -17,7 +17,6 @@
 
 // Вариант 3. Ввод числа с клавиатуры
 
-
 // System.Console.WriteLine("Введите число: ");
 // string writeNumber = Console.ReadLine();
 // int number3 = Convert.ToInt32(writeNumber);
