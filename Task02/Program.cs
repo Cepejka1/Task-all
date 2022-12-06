@@ -22,18 +22,18 @@
 
 // Второй способ
 
-int i = 0;
-string[] nums = { "первое", "воторое" };
-int[] num = new int[2];
-string Result = "не является";
+// int i = 0;
+// string[] nums = { "первое", "воторое" };
+// int[] num = new int[2];
+// string Result = "не является";
 
-for (i = 0; i < 2; i++)
-{
-    System.Console.WriteLine($"Введите {nums[i]} число: ");
-    string writeNum = Console.ReadLine();
-    num[i] = Convert.ToInt32(writeNum);
-}
+// for (i = 0; i < 2; i++)
+// {
+//     System.Console.WriteLine($"Введите {nums[i]} число: ");
+//     string writeNum = Console.ReadLine();
+//     num[i] = Convert.ToInt32(writeNum);
+// }
 
-if (num[0] / num[1] == num[1]) Result = Result.Replace("не ", "");
+// if (num[0] / num[1] == num[1]) Result = Result.Replace("не ", "");
 
-System.Console.WriteLine($"Число {num[0]} {Result} квадратом числа {num[1]}");
+// System.Console.WriteLine($"Число {num[0]} {Result} квадратом числа {num[1]}");
